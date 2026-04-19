@@ -12,6 +12,7 @@ import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
 // Controlador REST para gestionar productos en el catálogo de pastelería
+// Proporciona endpoints para CRUD de productos, con validación de imagen y documentación Swagger
 @RestController
 @RequestMapping("/api/productos")
 @Tag(name = "Catálogo de Productos", description = "Operaciones del inventario de pastelería")
